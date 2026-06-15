@@ -1,15 +1,15 @@
 h1 align="center">
   <img src="https://img.shields.io/badge/DeltaOS-0.1.0-3AAFA9?style=for-the-badge&labelColor=1F2937" alt="DeltaOS">
   <br>
-  🖥️ x86_64 Hobby Operating System
+  🖥️ x86_64 Operating System
 </h1>
 
 <p align="center">
   <img src="https://img.shields.io/badge/arch-x86__64-blue?style=flat-square&labelColor=1F2937&color=3AAFA9" alt="arch">
   <img src="https://img.shields.io/badge/rust-nightly-orange?style=flat-square&labelColor=1F2937&color=DEA584" alt="rust">
   <img src="https://img.shields.io/badge/license-MIT-green?style=flat-square&labelColor=1F2937&color=57AB5B" alt="license">
-  <img src="https://img.shields.io/badge/status-educational-yellow?style=flat-square&labelColor=1F2937&color=D4A72C" alt="status">
-</p>
+  ![Uploading os_comparison_chart (2).png…]()
+
 
 <p align="center">
   Preemptive multitasking OS kernel written from scratch in Rust + NASM.<br>
