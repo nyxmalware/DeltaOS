@@ -283,22 +283,6 @@ quadrantChart
 
 ---
 
-##  Design Decisions
-
-### Why Rust?
-Memory safety without GC. The borrow checker catches use-after-free, double-free, and buffer overflows at compile time — critical for a kernel where a single bug can corrupt the entire system.
-
-### Why Round-Robin?
-Simple, fair, deterministic. Every task gets an equal time slice. Priority levels allow the scheduler to prefer important tasks without starvation. No complex heuristics needed for a hobby OS.
-
-### Why ACPI + APIC?
-Modern x86_64 hardware requires ACPI for interrupt controller discovery and power management. The Local APIC provides per-CPU timers for precise scheduling, and the IO APIC replaces the legacy 8259A PIC for flexible IRQ routing.
-
-### Why Slab + Bump?
-Slab allocation is fast for common kernel object sizes (8 B – 4 KB). Bump pointer handles larger or unusual allocations. Together they provide a complete kernel heap with minimal fragmentation.
-
----
-
 ##  Known Limitations
 
 - Single-core only (SMP not yet implemented)
