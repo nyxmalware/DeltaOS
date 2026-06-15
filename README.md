@@ -8,7 +8,7 @@ h1 align="center">
   <img src="https://img.shields.io/badge/arch-x86__64-blue?style=flat-square&labelColor=1F2937&color=3AAFA9" alt="arch">
   <img src="https://img.shields.io/badge/rust-nightly-orange?style=flat-square&labelColor=1F2937&color=DEA584" alt="rust">
   <img src="https://img.shields.io/badge/license-MIT-green?style=flat-square&labelColor=1F2937&color=57AB5B" alt="license">
-  ![Uploading os_comparison_chart (2).png…]()
+   
 
 
 <p align="center">
