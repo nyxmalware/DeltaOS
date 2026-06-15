@@ -1,4 +1,4 @@
-h1 align="center">
+
   <img src="https://img.shields.io/badge/DeltaOS-0.1.0-3AAFA9?style=for-the-badge&labelColor=1F2937" alt="DeltaOS">
   <br>
   🖥️ x86_64 Operating System
