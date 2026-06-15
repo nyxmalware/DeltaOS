@@ -1,0 +1,30 @@
+[package]
+name = "deltaos-kernel"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "deltaos_kernel"
+path = "src/lib.rs"
+crate-type = ["staticlib"]
+
+[dependencies]
+spin = "0.9"
+bitflags = "2.4"
+
+[profile.dev]
+panic = "abort"
+lto = false
+opt-level = 0
+debug = true
+
+[profile.release]
+panic = "abort"
+lto = true
+opt-level = 3
+debug = false
+codegen-units = 1
+strip = true
+
+[features]
+default = []
